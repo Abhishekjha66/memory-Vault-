@@ -1,0 +1,17 @@
+:root{--bg:#0f1724;--card:#0b1220;--accent:#7dd3fc;--muted:#94a3b8}
+*{box-sizing:border-box}
+body{font-family:system-ui,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#071028 0%, #091426 100%);color:#e6eef6;min-height:100vh;margin:0;display:flex;align-items:flex-start;justify-content:center;padding:40px}
+.container{width:100%;max-width:900px;background:rgba(255,255,255,0.03);padding:20px;border-radius:12px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+h1{margin:0 0 12px 0;font-size:24px}
+form{display:grid;gap:10px;margin-bottom:18px}
+input[type="text"], textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit}
+textarea{min-height:80px;resize:vertical}
+.file-label{display:inline-block;padding:8px;border-radius:8px;border:1px dashed rgba(255,255,255,0.06);cursor:pointer;text-align:center}
+button{background:var(--accent);border:none;padding:10px 14px;border-radius:8px;cursor:pointer;color:#022;font-weight:600}
+.memories{display:grid;gap:12px}
+.memory{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02);display:flex;gap:12px;align-items:center}
+.meta{flex:1}
+.meta h3{margin:0 0 6px 0;font-size:16px}
+.meta p{margin:0;color:var(--muted);font-size:13px}
+.actions{display:flex;gap:8px;align-items:center}
+a.btn, button.del{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:6px 8px;border-radius:8px;color:inherit;text-decoration:none;cursor:pointer}
